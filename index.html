@@ -1,34 +1,77 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
+<meta charset="UTF-8">
+<title>Para mi conejito 🐰</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background: #ffeef5;
+  text-align:center;
+  padding-top:100px;
+}
+
+.carta{
+  background:white;
+  max-width:600px;
+  margin:auto;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+
+button{
+  background:#ff6fa5;
+  color:white;
+  border:none;
+  padding:15px 25px;
+  border-radius:10px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+#mensaje{
+  display:none;
+  margin-top:20px;
+}
+</style>
+
 </head>
+
 <body>
-<p class="p1"><span class="s1">Te amo, conejito. 🐰✨</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1">function mostrarPaso1() {</span></p>
-<p class="p1"><span class="s1">document.getElementById("paso1").style.display = "block";</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">function mostrarPaso2() {</span></p>
-<p class="p1"><span class="s1">document.getElementById("paso2").style.display = "block";</span></p>
-<p class="p1"><span class="s1">}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+
+<div class="carta">
+  <h1>🐰 Para mi conejito 🐰</h1>
+
+  <button onclick="mostrarMensaje()">
+    Abrir sorpresa 💌
+  </button>
+
+  <div id="mensaje">
+    <h2>Te extraño muchísimo ❤️</h2>
+
+    <p>
+      Aunque estemos lejos, quería hacer algo diferente para ti.
+    </p>
+
+    <p>
+      Cada día pienso en ti y cuento los días para volver a darte un besito.
+    </p>
+
+    <p>
+      Gracias por hacerme tan feliz.
+    </p>
+
+    <h3>Te amo, conejito 🐰✨</h3>
+  </div>
+</div>
+
+<script>
+function mostrarMensaje() {
+  document.getElementById("mensaje").style.display = "block";
+}
+</script>
+
 </body>
 </html>
